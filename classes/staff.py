@@ -19,4 +19,4 @@ class Staff(Person):
             for row in reader:
                 staff.append(Staff(**dict(row)))
 
-        return staff
+        return staff 

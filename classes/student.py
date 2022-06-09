@@ -22,4 +22,4 @@ class Student(Person):
             for row in reader:
                 students.append(Student(**dict(row)))
 
-        return students
+        return students 
